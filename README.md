@@ -82,3 +82,6 @@ Input schemas are provided in:
 ## Reproducibility boundary
 
 The repository supports review of the statistical workflow. It does not reproduce the proprietary CTG extraction pipeline, raw signal parser, or real-time implementation. See `docs/reproducibility_boundary.md` and `NOTICE.md`.
+
+
+Karmakar, D., Mendis, L., Keenan, E., Palaniswami, M., Makalic, E., & Brownfoot, F. (2026). Mode-specific FHR signal dropout and perinatal asphyxia: non-proprietary reproducibility package (V1.0.0). Zenodo. https://doi.org/10.5281/zenodo.20782840
