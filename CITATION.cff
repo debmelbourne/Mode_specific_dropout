@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the accompanying manuscript."
+title: "Mode-specific FHR signal dropout and perinatal asphyxia: non-proprietary reproducibility package"
+authors:
+  - family-names: Karmakar
+    given-names: Debjyoti
+  - family-names: Mendis
+    given-names: Lochana
+  - family-names: Keenan
+    given-names: Emerson
+  - family-names: Palaniswami
+    given-names: Marimuthu
+  - family-names: Makalic
+    given-names: Enes
+  - family-names: Brownfoot
+    given-names: Fiona
+type: software
+version: 1.0.0

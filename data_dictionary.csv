@@ -1,0 +1,23 @@
+variable,required,description,example_or_allowed_values
+Asphyxia_composite,yes,Binary primary outcome after cohort-specific harmonisation,0/1
+mode_specific_dropout_pct,yes,Mode-specific dropout percentage derived using D_im formula,0-100
+primary_mode_of_acquisition,yes if ECG_minutes unavailable,Primary acquisition mode in final analysis window,US/ECG or 0/1
+ECG_minutes,yes if mode unavailable,Minutes of ECG signal in final-hour window; ECG group if >=10 minutes,numeric
+Maternal_BMI,adjustment,Maternal body mass index,numeric
+Maternal_age,adjustment,Maternal age in years,numeric
+Gestation,adjustment,Gestational age in weeks,numeric
+Baby_weight,adjustment,Birthweight,numeric
+Baby_gender,adjustment,Infant sex/gender coding harmonised locally,male/female or coded
+Parity,adjustment,Parity; collapsed at >=3 in analysis,"0,1,2,3+"
+Labour_onset_svsi,adjustment,Labour onset,spontaneous/induced or 0/1
+OBS_CODE,adjustment,Primary obstetric diagnosis/risk group,site-specific categories
+Fetal_presention,adjustment,Fetal presentation,vertex/other or coded
+Fetal_position,adjustment,Fetal position where available,site-specific categories
+Maternal_position,adjustment,Maternal position where available,site-specific categories
+Meconeum,adjustment,Meconium-stained liquor indicator,0/1
+Sentinel_SAFC,adjustment where available,Sentinel events such as cord accident/serious event,site-specific categories
+MOB,adjustment,Mode of birth,vaginal/instrumental/CS or coded
+Regional_anaesthetic,adjustment where available,Regional anaesthesia indicator,0/1
+Duration_of_labour_1,adjustment,Stage 1 labour duration,hours
+Duration_of_labour_2,adjustment,Stage 2 labour duration,hours
+Duration_stage_total,survival,Total labour duration used as time variable for survival template,hours
